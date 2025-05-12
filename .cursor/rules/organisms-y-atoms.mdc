@@ -1,0 +1,15 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Reglas sobre organismos y átomos eliminados
+
+Los siguientes archivos fueron eliminados pero forman parte importante del diseño atómico y la estructura del proyecto:
+
+- [src/components/atoms/texts/CardTitle.tsx](mdc:src/components/atoms/texts/CardTitle.tsx): Átomo para títulos de tarjetas o secciones.
+- [src/components/organisms/SkillCategory.tsx](mdc:src/components/organisms/SkillCategory.tsx): Organismo que agrupa un título y varias barras de habilidades.
+- [src/components/organisms/MainSidebar.tsx](mdc:src/components/organisms/MainSidebar.tsx): Organismo que representa el sidebar principal, compuesto por avatar, títulos, separadores, pares de etiquetas y categorías de habilidades.
+
+Estos componentes siguen siendo referencia para la arquitectura y pueden ser restaurados o consultados en el historial del proyecto si es necesario.
+

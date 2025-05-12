@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom global styles can be added below */
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Ocultar Scrollbar */
+.scrollbar-fade {
+  scrollbar-width: auto;
+  scrollbar-color: transparent transparent;
+  transition: scrollbar-color 0.3s;
+}
+.scrollbar-fade:hover {
+  scrollbar-color: #bdbdbd transparent; /* thumb color, track color */
+}
+
+/* Para navegadores basados en Webkit */
+.scrollbar-fade::-webkit-scrollbar {
+  width: 10px;
+  transition: background 0.3s;
+  background: transparent;
+}
+.scrollbar-fade:hover::-webkit-scrollbar {
+  background: #ffffff;
+}
+.scrollbar-fade::-webkit-scrollbar-thumb {
+  background: transparent;
+  border-radius: 12px;
+  transition: background 0.3s;
+}
+.scrollbar-fade:hover::-webkit-scrollbar-thumb {
+  background: #ffffff;
+}

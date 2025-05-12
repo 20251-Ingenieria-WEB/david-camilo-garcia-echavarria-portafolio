@@ -1,0 +1,12 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Uso de imágenes y SVGs
+
+- Los archivos SVG ubicados en `src/components/atoms/icons/` o subcarpetas se importan como **componentes React** usando SVGR y deben usarse como `<IconName className="..." />`.
+- Las imágenes PNG, JPG, etc., deben colocarse en la carpeta [public/](mdc:public) y usarse con rutas relativas, por ejemplo: `<img src="/Shattered.png" ... />` o con el componente `next/image`.
+- No se debe usar `<img src={ComponenteSVG} />` para SVGs importados como componentes, ya que esto genera errores en Next.js.
+- Para cambiar colores de SVGs importados como componentes, usa la clase de Tailwind adecuada y asegúrate de que el SVG tenga `fill="currentColor"` o `stroke="currentColor"`.
+

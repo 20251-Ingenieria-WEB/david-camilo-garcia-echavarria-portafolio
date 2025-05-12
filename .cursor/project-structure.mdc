@@ -1,0 +1,20 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Guía de Estructura del Proyecto
+
+El punto de entrada principal es [src/app/page.tsx](mdc:src/app/page.tsx), que utiliza componentes de [src/components/](mdc:src/components).
+
+## Estructura de carpetas
+- [src/app/](mdc:src/app): Contiene la configuración global, el layout y la página principal.
+- [src/components/](mdc:src/components): Componentes reutilizables como Header, Footer, Hero, Features, Pricing, Testimonials y CTA.
+- [public/](mdc:public): Archivos estáticos públicos.
+- [README.md](mdc:README.md): Documentación general del proyecto.
+
+## Configuración
+- [next.config.js](mdc:next.config.js): Configuración de Next.js.
+- [tailwind.config.js](mdc:tailwind.config.js): Configuración de Tailwind CSS.
+- [tsconfig.json](mdc:tsconfig.json): Configuración de TypeScript.
+

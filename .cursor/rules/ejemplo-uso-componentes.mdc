@@ -1,0 +1,32 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Ejemplo de uso de componentes atómicos, moleculares y organismos
+
+## Átomos
+```tsx
+<Title>Mi título principal</Title>
+<Subtitle>Subtítulo de sección</Subtitle>
+<CardTitle>Título de tarjeta</CardTitle>
+<BodyText>Texto normal de la web</BodyText>
+<Separator />
+<ProgressBar value={75} />
+```
+
+## Moléculas
+```tsx
+<SkillBar leftLabel="HTML" value={90} />
+<LabelPair leftLabel="Correo" rightLabel="usuario@email.com" rightColor="text-accent" />
+```
+
+## Organismos
+```tsx
+<SkillCategory
+  title="Programming Skills"
+  skills={[{ name: 'HTML', value: 90 }, { name: 'CSS', value: 85 }]}
+/>
+<MainSidebar className="shadow-lg" />
+```
+

@@ -1,0 +1,12 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Nomenclatura recomendada para colores en Tailwind
+
+- Usa nombres semánticos y claros para los colores personalizados en `tailwind.config.js`, como `primary`, `secondary`, `accent`, `surface`, `background`, `text-main`, `text-muted`.
+- Evita sobrescribir nombres de clases de Tailwind como `base`, `body`, `info`, etc., para prevenir conflictos y confusiones.
+- Para aplicar colores personalizados, usa clases como `text-primary`, `bg-surface`, `text-text-main`, etc.
+- Esta convención facilita la integración con extensiones como Tailwind CSS IntelliSense y mejora la mantenibilidad del código.
+

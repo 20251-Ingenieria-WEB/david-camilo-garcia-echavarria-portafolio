@@ -1,0 +1,29 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Estructura de componentes y flujos atómicos
+
+## Carpetas principales
+- [src/components/atoms/](mdc:src/components/atoms): Contiene los átomos, los componentes más básicos y reutilizables (textos, íconos, botones, separadores, barras de progreso, etc.).
+- [src/components/molecules/](mdc:src/components/molecules): Contiene moléculas, que son combinaciones simples de átomos (por ejemplo, SkillBar, LabelPair).
+- [src/components/organisms/](mdc:src/components/organisms): Contiene organismos, que agrupan moléculas y átomos para formar secciones funcionales (por ejemplo, sidebars, categorías de habilidades).
+- [src/components/atoms/texts/](mdc:src/components/atoms/texts): Subcarpeta para átomos de texto como Title, Subtitle, BodyText, CardTitle.
+- [src/components/atoms/icons/](mdc:src/components/atoms/icons): Subcarpeta para átomos de íconos SVG.
+
+## Flujos de composición
+- Los **átomos** se combinan para formar **moléculas**.
+- Las **moléculas** y átomos se agrupan en **organismos**.
+- Los **organismos** se integran en plantillas o páginas.
+
+## Ejemplo de flujo atómico
+- Un `SkillBar` (molécula) está compuesto por dos `BodyText` (átomos) y una `ProgressBar` (átomo).
+- Un `SkillCategory` (organismo) contiene un `CardTitle` (átomo) y varios `SkillBar` (moléculas).
+- El `MainSidebar` (organismo) agrupa avatar, títulos, separadores, pares de etiquetas y categorías de habilidades.
+
+## Buenas prácticas
+- Mantener los componentes lo más pequeños y reutilizables posible.
+- Usar subcarpetas para organizar átomos por tipo (por ejemplo, textos, íconos, botones).
+- Documentar la relación y función de cada componente para facilitar la navegación y el mantenimiento.
+
