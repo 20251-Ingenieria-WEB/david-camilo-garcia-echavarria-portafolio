@@ -5,12 +5,14 @@ yarn-debug.log*
 yarn-error.log*
 
 # Next.js
-.cursorrules
 .next/
 out/
 
 # Vercel
 .vercel/
+
+# Cursor
+.cursor/
 
 # Sistema operativo
 .DS_Store
@@ -31,3 +33,4 @@ Thumbs.db
 # Otros
 coverage/
 *.log 
+.vercel

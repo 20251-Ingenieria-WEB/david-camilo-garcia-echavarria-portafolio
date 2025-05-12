@@ -1,5 +1,7 @@
 # Landing Page Atomic Design
 
+> Proyecto desplegado en: [david-camilo-garcia-echavarria.vercel.app](https://david-camilo-garcia-echavarria.vercel.app)
+
 Este proyecto es una landing page construida siguiendo el modelo de **Atomic Design** con React y Next.js, utilizando Tailwind CSS para los estilos.
 
 ## Estructura del Proyecto
@@ -38,6 +40,12 @@ Este proyecto es una landing page construida siguiendo el modelo de **Atomic Des
    ```
 
 4. Abre tu navegador en [http://localhost:3000](http://localhost:3000)
+
+## Despliegue en producción
+
+El proyecto está desplegado en Vercel:
+
+- [https://david-camilo-garcia-echavarria.vercel.app](https://david-camilo-garcia-echavarria.vercel.app)
 
 ## Notas
 
