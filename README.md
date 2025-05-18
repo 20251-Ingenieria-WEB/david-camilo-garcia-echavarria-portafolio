@@ -1,5 +1,6 @@
 # Landing Page Atomic Design
 
+> Proyecto importado de: [https://github.com/davidc-garciae/CurriculumVitae.git](https://github.com/davidc-garciae/CurriculumVitae.git)
 > Proyecto desplegado en: [david-camilo-garcia-echavarria.vercel.app](https://david-camilo-garcia-echavarria.vercel.app)
 
 Este proyecto es una landing page construida siguiendo el modelo de **Atomic Design** con React y Next.js, utilizando Tailwind CSS para los estilos.
